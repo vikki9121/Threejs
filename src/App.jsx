@@ -13,7 +13,7 @@ function App() {
 
     let loadedModel;
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('./assets/vikki/vikki.gltf', (gltfScene) => {
+    gltfLoader.load('./assets/vikki/model.gltf', (gltfScene) => {
       loadedModel = gltfScene;
 
       gltfScene.scene.rotation.set(0, 0, 0); // Set rotation to 0, 0, 0 for straight orientation
